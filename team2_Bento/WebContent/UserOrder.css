@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body{
+	border: block 1px dashed;
+	background-color:#FFFFF0;
+}
+
+h1{
+	text-align:center;
+}
+
+.a1{
+padding-left:125px;
+}
+.a2{
+padding-left:125px;
+padding-right:125px;
+}
+.a3{
+padding-right:125px;
+}
+pre{
+	font-size: 25px;
+}
+a#mon{
+text-align:right;
+display:block;
+}
+button#b{
+width:100px;
+height: 60px;
+font-size: 18px;
+}

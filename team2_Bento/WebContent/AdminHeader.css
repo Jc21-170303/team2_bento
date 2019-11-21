@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+#nav {
+	text-align: left;
+
+}
+
+#header {
+	border: 1px solid black;
+	width:200px;
+	height:1080px;
+	background-color:#00FF7F;
+	position: fixed;
+}
+h3 {
+	margin: 0 10px;
+	padding: 2px 5px;
+	color: #ffffff;
+}
+#nav ul {
+	font-size: small;
+	margin: 10px 20px;
+	padding: 0 10px;
+}
+li {
+	line-height: 1.5em;
+	list-style-type: none;
+}
+#nav a {
+	text-decoration: none;
+	color: #333333;
+}
+#nav a:hover {
+	color: #ff6600;
+}

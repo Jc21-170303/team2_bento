@@ -1,0 +1,22 @@
+body{
+	background-color: #F0FFFF;
+}
+
+#bo{
+	width:83%;
+	position: absolute;
+	margin-left:800px;
+	top:165px;
+}
+h1{
+text-align:center;
+}
+
+h3{
+	margin-left:100px;
+}
+table{
+	width:80%;
+	font-size: 25px;
+	background-color:white;
+}

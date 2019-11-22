@@ -16,7 +16,7 @@
 <br>
 <h3><a href=".html">注文履歴（社員)</a></h3>
 <br>
-<h3><a href="info.html">注文履歴（日付）</a></h3>
+<h3><a href="http://localhost:8080/team2_Bento/DaysDate.jsp">注文履歴（日付）</a></h3>
 <br>
 <h3><a href="info.html">チェックリストへ</a></h3>
 <ul>

@@ -13,9 +13,12 @@ div#yoko{
 </style>
 </head>
 <body>
-<a href = "#" id = "modoru"><button = id = b>戻る</button></a>
+<%@include file="./AdminHeader.jsp" %>
+<a href = "#" id = "modoru"><button  id = b>戻る</button></a>
 <h1>日ごと詳細画面</h1>
-<h2>〇月×日の詳細</h2>
+<br>
+<br>
+<p>〇月×日の詳細</p>
 
 <table border="1" align = "center">
 

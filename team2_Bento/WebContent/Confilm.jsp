@@ -12,7 +12,9 @@
 }
 </style>
 </head>
+
 <body>
+<%@include file="./AdminHeader.jsp" %>
 <h1>注文確定画面</h1>
 
 <h3>全部署一覧</h3>
@@ -32,12 +34,13 @@
 <td>〇〇〇円&emsp;</td>
 </tr>
 </table>
-
+<br>
 <pre>
 本日分の注文は確定してもよろしいですか
 </pre>
+<br>
 <pre>
-<button>キャンセル</button>&nbsp;&nbsp;&nbsp;&nbsp;<button>確定</button>
+<button>キャンセル</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>確定</button>
 </pre>
 </body>
 </html>

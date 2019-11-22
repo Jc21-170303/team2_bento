@@ -3,20 +3,19 @@ body{
 }
 
 #bo{
-	width:83%;
 	position: absolute;
-	margin-left:800px;
+	margin-left:900px;
 	top:165px;
 }
 h1{
 text-align:center;
 }
 
-h3{
-	margin-left:100px;
+p{
+margin-left:320px;
 }
 table{
-	width:80%;
+	width:550px;
 	font-size: 25px;
 	background-color:white;
 }

@@ -1,19 +1,24 @@
 @charset "utf-8";
 
-
+*{
+	margin:0;
+	pading:0;
+	font-family:"Avenir Next";
+}
 #nav {
 	text-align: left;
 
 }
 
 #header {
-	border: 1px solid black;
+	border: 3px solid black;
 	width:200px;
 	height:1080px;
-	background-color:#00FF7F;
+	background-color:#BAD3FF;
 	position: fixed;
 }
 h3 {
+	text-align: left;
 	margin: 0 10px;
 	padding: 2px 5px;
 	color: #ffffff;

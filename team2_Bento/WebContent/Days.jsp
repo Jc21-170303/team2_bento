@@ -11,8 +11,10 @@
 </style>
 </head>
 <body>
-
+<%@include file="./AdminHeader.jsp" %>
 <h1>日ごと履歴画面</h1>
+<br>
+<br>
 <div id= "bo" >
 <select>
 <option>1月</option>
@@ -33,7 +35,7 @@
 
 <button>決定</button> 
 </div>
-<h3>月ごとの注文金額</h3>
+<p>月ごとの注文金額</p>
 <table border="1" align = "center">
 
 <tr>

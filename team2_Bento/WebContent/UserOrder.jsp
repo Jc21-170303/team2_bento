@@ -127,7 +127,7 @@ div#yoko{
 </table>
 </TD>
 
-</TR>
+ </TR>
 </TABLE>
 <pre>
 ※本日分は終了しました。

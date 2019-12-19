@@ -2,7 +2,13 @@
 
 body{
 	border: block 1px dashed;
-	background-color:#FFFFF0;
+	background-color:#F0FFFF;
+}
+
+.flex{ 
+	display: inline-flex;
+
+	
 }
 
 h1{
@@ -19,7 +25,7 @@ padding-right:125px;
 .a3{
 padding-right:125px;
 }
-pre{
+p{
 	font-size: 25px;
 }
 a#mon{
@@ -29,6 +35,28 @@ display:block;
 button#b{
 width:100px;
 height: 60px;
-font-size: 18px;
+ display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+}
+.b:hover {
+  background: #67c5ff;
+  color: white;
+}
+.ta{
+border-collapse:collapse;
+margin:0 auto;
+}
+td,th{
+  padding:10px;
+ 
+}
+th{
+  color:#fff;
+  background:#005ab3;
 }
 

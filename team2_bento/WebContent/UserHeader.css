@@ -4,21 +4,33 @@
 	font-family:"Avenir Next";
 }
 header{
-	background-color:;
+	background-color:#BAD3FF;
 	margin:0;
 	pading:0;
 	font-family:"Avenir Next";
 	}
 
 header #h1{
-	font-size: 30px;
+	font-size: 25px;
 	
 	}
 header #t1{
 	
 	margin-left: auto;
 }
+#b1{
+display: inline-block;
+padding: 0.3em 1em;
+text-decoration: none;
+color: #67c5ff;
+border: solid 2px #67c5ff;
+border-radius: 3px;
+transition: .4s;
+}
 	
 	
 	
-
+	
+	
+	
+	

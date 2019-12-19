@@ -1,0 +1,23 @@
+body{
+	 background-color:#FAEBD7;
+}
+div#box{
+overflow: auto;
+height:400px;
+padding:10px;
+border: black 1px dashed;
+background-color:#FFFFCC;
+line-height:2.0em;
+font-size:140%;
+font-color:#000000;
+
+}
+div#order {
+}
+
+table#t{
+	position:relative;
+	top:-170px;
+	left:430px;
+	
+}

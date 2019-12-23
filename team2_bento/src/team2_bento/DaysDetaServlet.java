@@ -37,10 +37,12 @@ public class DaysDetaServlet extends HttpServlet {
     		final String id = "team2";
     		final String pass = "Oracle_11g";
     		
+    		
+    		
     		try {
     			
     		String day1 = request.getParameter("day");
-    		System.out.println(day1);
+    		
     		
     		//Date day = Date.valueOf(day1);
     		Class.forName(driverName);
@@ -89,7 +91,10 @@ public class DaysDetaServlet extends HttpServlet {
 
  
     		PreparedStatement st2 =
-    	    		connection.prepareStatement("select sum(qty*price) as result from emp_order inner join emp on emp_order.emp_id = emp.emp_id inner join bento on emp_order.bento_id = bento.bento_id where trunc(order_date)= ? ");
+    	    		connection.prepareStatement("select sum(qty*price) as result "
+    	    				+ "from emp_order inner join emp on emp_order.emp_id = emp.emp_id inner "
+    	    				+ "join bento on emp_order.bento_id = bento.bento_id "
+    	    				+ "where trunc(order_date)= ? ");
     		st2.setString(1, day1);
     		
     		ResultSet rs3 = st2.executeQuery();
